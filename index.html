@@ -1,79 +1,78 @@
-<head>
-				<title>IxmaZeco</title>
-				<script>alert("ILOVEYOUUU")</script>
-				<script>alert("MY TUAN AUFFA NABIHAH")</script>
-				<style>
-								body {
-				margin: 0;
-				padding: 0;
-				box-sizing: border-box;
+<title>IxmaZeco</title>
+                <script>alert("ILOVEYOUUU")</script>
+                <script>alert("MY TUAN AUFFA NABIHAH")</script>
+                <style>
+                                body {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
 }
 .scene {
-				position: relative;
-				height: 100vh;
-				width: 100%;
-				background-attachment: fixed;
-				overflow: hidden;
-				background: linear-gradient(black, black);
+                position: relative;
+                height: 100vh;
+                width: 100%;
+                background-attachment: fixed;
+                overflow: hidden;
+                background: linear-gradient(black, black);
 }
 .moon {
-				position: absolute;
-				width: 100px;
-				height: 100px;
-				top: 100px;
-				left: 400px;
-				background: #fff;
-				z-index: 1000;
-				border-radius: 50%;
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                top: 100px;
+                left: 400px;
+                background: #fff;
+                z-index: 1000;
+                border-radius: 50%;
 }
 .moon:after {
-				position: absolute;
-				content: "";
-				width: 100%;
-				height: 100%;
-				top: -15px;
-				left: 15px;
-				background: white;
-				z-index: 1000;
-				border-radius: 50%;
-				background: linear-gradient(black, black);
-				background-attachment: fixed;
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 100%;
+                top: -15px;
+                left: 15px;
+                background: white;
+                z-index: 1000;
+                border-radius: 50%;
+                background: linear-gradient(black, black);
+                background-attachment: fixed;
 }
 .forest {
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				width: 100%;
-				z-index: 1000;
-				transform: scale(1.2);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                z-index: 1000;
+                transform: scale(1.2);
 }
 
 .scene i {
-				position: absolute;
-				border-radius: 50%;
-				background: #fff;
-				animation: animate linear infinite;
+                position: absolute;
+                border-radius: 50%;
+                background: #fff;
+                animation: animate linear infinite;
 }
 @keyframes animate {
-				0%{
-								opacity: 0%;
-								transform: translateY(0);
-				}
-				10%,90%{
-								opacity: 1;
-				}
-				100%{
-								opacity: 0%;
-								transform: translateY(-100px);
-				}
+                0%{
+                                opacity: 0%;
+                                transform: translateY(0);
+                }
+                10%,90%{
+                                opacity: 1;
+                }
+                100%{
+                                opacity: 0%;
+                                transform: translateY(-100px);
+                }
 }
 
 
-				</style>
+                </style>
 </head>
 <body>
-				 <script>
- 	
+                 <script>
+     
  function playSound(){var audio=document.querySelector("audio")
  audio.play()}
  
@@ -84,40 +83,38 @@
 <body onclick="playSound()" onemouseover="playSound()">
   <div class="bg">
    
-<audio 				src="https://www.top4top.me/do.php?filename=top4top_me146974515ff01.mp3"></audio>
- 
-				<div class="scene">
-								<div class="moon"></div>
-								<img src="https://i.ibb.co/r4q2P7k/forest.png" class="forest">
-				</div>
-				
-				
-				<script>
-								function stars(){
-				let count = 500;
-				let scene = document.querySelector('.scene');
-		 	  let i = 0;
-				while(i < count){
-								let star = document.createElement("i");
-								let x = Math.floor(Math.random() * window.innerWidth);
-								let y = Math.floor(Math.random() * window.innerHeight);
-								let duration = Math.random() * 10;
-								let size = Math.random() * 2;
-								
-								star.style.left = x+'px';
-								star.style.top = y+'px';
-								star.style.width = 1+size+'px';
-								star.style.height = 1+size+'px';
-								
-								star.style.animationDuration = 5+duration+'s';
-								star.style.animationDelay = duration+'s';
-								
-								scene.appendChild(star);
-								i++
-				}
+<audio                 src="https://k.top4top.io/m_2876syhn60.mp3"></audio>
+
+                <div class="scene">
+                                <div class="moon"></div>
+                                <img src="https://i.ibb.co/r4q2P7k/forest.png" class="forest">
+                </div>
+                
+                
+                <script>
+                                function stars(){
+                let count = 800;
+                let scene = document.querySelector('.scene');
+               let i = 0;
+                while(i < count){
+                                let star = document.createElement("i");
+                                let x = Math.floor(Math.random() * window.innerWidth);
+                                let y = Math.floor(Math.random() * window.innerHeight);
+                                let duration = Math.random() * 10;
+                                let size = Math.random() * 2;
+                                
+                                star.style.left = x+'px';
+                                star.style.top = y+'px';
+                                star.style.width = 1+size+'px';
+                                star.style.height = 1+size+'px';
+                                
+                                star.style.animationDuration = 1+duration+'s';
+                                star.style.animationDelay = duration+'s';
+                                
+                                scene.appendChild(star);
+                                i++
+                }
 }
 stars();
 
-				</script>
-</body>
-</html>
+       
